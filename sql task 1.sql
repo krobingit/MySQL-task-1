@@ -3,7 +3,7 @@
 ------------------------USERS TABLE -------------------------------------------------------
 ---Create Users
 CREATE TABLE users(userid INTEGER PRIMARY KEY, username VARCHAR(100),email VARCHAR(100)
-,mentorid INTEGER,
+,mentorid INTEGER
 );
 -- Insert Into Users
 INSERT INTO users VALUES(1,"Narayan","narayan@gmail.com",5)
@@ -28,7 +28,7 @@ group by users.mentorid;
 ------------------------CODEKATA TABlE---------------------------------------------------------
 --Create CODEKATA
 CREATE TABLE codekata(userid INTEGER,number_problems INTEGER,
- string_problems INTEGER,
+ string_problems INTEGER
  );
 --Insert into CODEKATA
 INSERT INTO codekata VALUES(1,20,10)
