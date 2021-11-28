@@ -6,11 +6,11 @@ CREATE TABLE users(userid INTEGER PRIMARY KEY, username VARCHAR(100),email VARCH
 ,mentorid INTEGER,
 );
 -- Insert Into Users
-INSERT INTO users VALUES("1","Narayan","narayan@gmail.com",5);
-INSERT INTO users VALUES("2","Sekar","sekar@gmail.com",4);
-INSERT INTO users VALUES("3","Raj","raj@gmail.com",4);
-INSERT INTO users VALUES("4","Harish","hari@gmail.com",2);
-INSERT INTO users VALUES("5","KrishnaKumar","krishna@gmail.com",5);
+INSERT INTO users VALUES(1,"Narayan","narayan@gmail.com",5);
+INSERT INTO users VALUES(2,"Sekar","sekar@gmail.com",4);
+INSERT INTO users VALUES(3,"Raj","raj@gmail.com",4);
+INSERT INTO users VALUES(4,"Harish","hari@gmail.com",2);
+INSERT INTO users VALUES(5,"KrishnaKumar","krishna@gmail.com",5);
 
 ---QUERY
 --(LIST ALL STUDENTS ASSIGNED FOR A SPECIFIC MENTOR)
@@ -152,11 +152,11 @@ CREATE TABLE mentors(mentorid INTEGER PRIMARY KEY,mentorname VARCHAR(100),mentor
 
 -- insert into mentors table
 
-INSERT INTO  mentors VALUES ("1","Siri","sirialexa@gmail.com");
-INSERT INTO  mentors VALUES ("2","Alexa","alexa@gmail.com");
-INSERT INTO mentors VALUES ("3","Ragav","ragav@gmail.com");
-INSERT INTO  mentors VALUES ("4","Rob","roblio@gmail.com");
-INSERT INTO mentors  VALUES ("5","Rene","rene@gmail.com");
+INSERT INTO  mentors VALUES (1,"Siri","sirialexa@gmail.com");
+INSERT INTO  mentors VALUES (2,"Alexa","alexa@gmail.com");
+INSERT INTO mentors VALUES (3,"Ragav","ragav@gmail.com");
+INSERT INTO  mentors VALUES (4,"Rob","roblio@gmail.com");
+INSERT INTO mentors  VALUES (5,"Rene","rene@gmail.com");
 
 -- query ( List all Mentors)
 SELECT mentorid,mentorname FROM mentors;
